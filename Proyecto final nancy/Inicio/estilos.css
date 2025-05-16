@@ -1,0 +1,38 @@
+header {
+ height: 80px; /* Fijamos altura */
+  background-color: #007BFF;
+  color: white;
+  padding: top;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+}
+main {
+  padding-top: 80px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
