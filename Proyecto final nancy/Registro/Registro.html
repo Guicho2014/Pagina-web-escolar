@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos_registro.css">
+    <link rel="icon" href="../logo.png" type="image/png">
+    <title>Menu pricipal</title>
+</head>
+<body>
+    <header class="Encabezado">
+        <div>
+            <center><img src="../logo.png" alt="Logo de FR TRAVELS" class="Logo"></div></center>
+        <h1 class="Titulo">FR TRAVELS</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html"><button class="Botones_menu">Inicio</button></a></li>
+                <li><a href="../Destinos/destinos.html"><button class="Botones_menu">Destinos</button></a></li>
+                <li><a href="../Paquetes/paquetes.html"><button class="Botones_menu">Paquetes</button></a></li>
+                <li><a href="../contactos/"><button class="Botones_menu">Contactanos</button></a></li>
+                <li><a href="../Inicio de secion/Inicio_S.html"><button class="Botones_menu">Inicio de sesion</button></a></li>
+            </ul>
+        </nav>
+    </header>
+      <main style="padding-top: 100px;">
+    <div class="formulario-login">
+      <h2>Crear una cuenta</h2>
+      <form action="procesar_registro.html" method="post">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required />
+
+        <label for="usuario">Nombre de usuario:</label>
+        <input type="text" id="usuario" name="usuario" required />
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required />
+
+        <label for="confirmar">Confirmar contraseña:</label>
+        <input type="password" id="confirmar" name="confirmar" required />
+
+        <div class="botones">
+         <a href="../index.html"><button type="button">Concluir Registro</button></a>
+        </div>
+      </form>
+    </div>
+  </main>
+    <footer>
+        <p>Pagina desarollada por Guicho2014 como proyecto escolar por lo que no debe tomarse enserio o como pagina funcional</p>
+        <div class="Pie_de_pagina">
+        <p class="P_pie_de_pagina"> correo: fttravel@gmail.com <br>
+           telefono: 7295729345 </p>
+        </div>
+    </footer>
+</body>
+</html>

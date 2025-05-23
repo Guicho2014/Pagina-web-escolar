@@ -1,0 +1,115 @@
+header {
+ height: 80px; /* Fijamos altura */
+  background-color: #081f38;
+  color: white;
+  padding: top;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transform-origin: right ;
+  transition: transform 1s ease;
+
+}
+.Logo{
+
+  width: 80px;          /* Ajusta el tamaño del logo */
+  margin-right: 20px;   /* Espacio entre el logo y el texto */
+
+  width: 60px;
+  height: auto;
+  margin-left: 20px; /* <-- mueve solo el logo a la derecha */
+}
+header:hover{
+  transform: scale(1.1);
+}
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+}
+main {
+  padding-top: 80px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: right;
+  margin: 10px 0;
+  padding: 0;
+  display: flex;
+  align-items: center;  /* Alinea verticalmente imagen y texto */
+  padding: 20px; 
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.Botones_menu{
+  background: none;       /* Sin fondo */
+  border: 2px solid white; /* Solo contorno blanco (puedes cambiar el color) */
+  color: white;           /* Color del texto */
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.Botones_menu:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* efecto al pasar el mouse */
+}
+.parrafo_bienvenida{
+  font-size: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+}
+.Boton_de_inicio{
+  background:none;
+  border: 2px solid  rgba(255, 255, 255, 0.1);
+  width: 40px;
+  color: rgb(10, 73, 190);
+}
+body{
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1),rgb(10, 73, 190));
+}
+.P_pie_de_pagina{
+  color: bisque;
+  font-size: 20px;
+}
+.Encabezado{
+  display: flex;
+  align-items: center;     /* Centra verticalmente */
+  justify-content: space-between; /* Espacia el logo y los botones */
+  background-color: #001f3f;
+  padding: 10px 20px;
+}
+.Contenedor_informacion{
+    width: 300px;
+    position: relative;
+    margin: 20px;
+}
+.Imagen_informacion{
+    width: 100%;
+    display: block;
+}
+.infor_info{
+    background-color: #001f3f;
+    color: blue;
+    padding: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+.Contenedor_informacion:hover .infor_info{
+max-height: 100px   ;
+}
